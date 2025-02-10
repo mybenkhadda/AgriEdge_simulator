@@ -32,6 +32,8 @@ RUN git clone --branch v0.19.0 -c feature.manyFiles=true https://github.com/spac
 RUN git clone https://github.com/pdidev/spack.git spack/var/spack/repos/pdi
 RUN git clone https://gitlab.inria.fr/rgautron/gym_dssat_pdi-spack.git spack/var/spack/repos/gym-dssat-pdi
 
+
+
 RUN . spack/share/spack/setup-env.sh \
 && spack repo add spack/var/spack/repos/pdi \
 && spack repo add spack/var/spack/repos/gym-dssat-pdi \
