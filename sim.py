@@ -1,6 +1,6 @@
 import gym
 env_args = {
-    'log_saving_path': './logs/dssat-pdi.log',  # if you want to save DSSAT outputs for inspection
+    # 'log_saving_path': './logs/dssat-pdi.log',  # if you want to save DSSAT outputs for inspection
     # 'mode': 'irrigation',  # you can choose one of those 3 modes
     # 'mode': 'fertilization',
     'mode': 'all',
